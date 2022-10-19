@@ -11,14 +11,14 @@ This repository is a fork of Engaging Network's own: https://github.com/Engaging
 ```
 
 ### Must contain 35 characters or less
-Required by Vantiv for Address 1
+Required by Vantiv for Address 1\
 Required by Vantiv for City
 ```regex
 ^.{0,35}$
 ```
 
 ### Must contain 25 characters or less
-Required by Vantiv for First Name
+Required by Vantiv for First Name\
 Required by Vantiv for Last Name
 ```regex
 ^.{0,25}$
