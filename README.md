@@ -6,6 +6,9 @@ You can create new validators by going to **Pages > Alerts & validators > Valida
 This repository is a fork of Engaging Network's own: https://github.com/EngagingNetworks/custom-validators
 
 ### Must contain 100 characters or less
+Safe default for Address 2\
+Safe default for Region (e.g. State)\
+Safe default for Postal Code (e.g. Zip Code)
 ```regex
 ^.{0,100}$
 ```
