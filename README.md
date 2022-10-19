@@ -28,11 +28,14 @@ Required by Vantiv for Last Name
 ```
 
 ### Phone numbers can only contain the numbers, spaces, pluses, opening parenthesis, closing paranethesis, dashes, and periods
+While not in the error message, the value can also be blank
 ```regex
 ^$|^[0-9#+()\-. ]{7,25}$
 ```
 
-### Address can be blank OR contain letters, numbers, commas, spaces, dots, slashes, dashes, and apostophes
+### Address can only contain letters, numbers, commas, spaces, dots, slashes, dashes, and apostophes
+**This validator is untested but was included on the EN repo and seemed like it could be useful**\
+While not in the error message, the value can also be blank
 ```regex
 ^$|^[A-Za-z0-9\s\-\\\/.,—'’]+$
 ```
